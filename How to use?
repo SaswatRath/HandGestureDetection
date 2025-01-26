@@ -1,0 +1,13 @@
+## 1. Install the required libraries:
+-> Make sure Python is installed and run:
+pip install opencv-python numpy scikit-learn
+
+## 2. Run the script:
+-> Start the application with:
+python finger_counting.py
+
+## 3. Usage Instructions:
+-> Allow the application to capture the background for 60 frames. During this time, avoid placing your hand in the ROI (Region of Interest).
+-> Once the message "WAIT! GETTING BACKGROUND AVG." disappears, position your hand within the green box (ROI).
+-> The program will segment the hand, count the number of extended fingers, and display the count on the video feed.
+-> Press the Esc key to exit the application.
